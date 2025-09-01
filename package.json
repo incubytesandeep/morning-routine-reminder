@@ -1,0 +1,17 @@
+{
+  "name": "ta01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "format": "prettier \"src/**/*.ts\" \"test/**/*.ts\" --write"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "private": true
+}
